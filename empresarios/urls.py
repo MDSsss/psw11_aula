@@ -9,4 +9,5 @@ urlpatterns = [
     path('excluir_dc/<int:id>', views.excluir_dc, name="excluir_dc"),
     path('add_metrica/<int:id>', views.add_metrica, name="add_metrica"),
     path('gerenciar_proposta/<int:id>', views.gerenciar_proposta, name="gerenciar_proposta"),
+    path("dashboard/<int:id>", views.dashboard, name="dashboard")
 ]

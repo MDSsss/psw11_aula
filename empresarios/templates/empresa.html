@@ -30,6 +30,8 @@
                     <div class="col-md">
                         <h3>Percentual captado</h3>
                         <h2>{{empresa.nome}}</h2>
+                        <br>
+                        <!--<a class="btn btn-primary" href="{% url 'dashboard' empresa.id  %}" role="button">DASHBOARD</a>-->
                         
                     </div>
                     
@@ -68,7 +70,7 @@
                         <span class="sub-fonte">Esperado: {{empresa.valuation}}</span>
                     </div>
 
-
+                        
                     <div class="documentos">
                         <h3>Anexar documentos</h3>
                         <form action="{% url "add_doc" empresa.id %}" method="POST" enctype='multipart/form-data'>{% csrf_token %}
