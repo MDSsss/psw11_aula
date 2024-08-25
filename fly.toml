@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for psw11-aula on 2024-08-23T14:04:48-03:00
+# fly.toml app configuration file generated for start-se on 2024-08-24T21:19:29-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'psw11-aula'
+app = 'start-se'
 primary_region = 'gru'
 console_command = '/code/manage.py shell'
 
